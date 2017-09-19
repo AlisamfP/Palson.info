@@ -1,0 +1,15 @@
+.Main {
+  margin: 0 auto;
+  width: 80%;
+
+  background-color: oldlace;
+}
+
+.Main-header {
+  border: 1px solid black;
+  background: pink;
+}
+
+.Main-logo{
+  width: 100px;
+}
