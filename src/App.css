@@ -1,31 +1,18 @@
 .main-wrapper {
-  padding: 100px;
+  padding: 50px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   flex: 1;
+  height: -webkit-fill-available;
 
   background-color: oldlace;
 }
 
 
-/*@media all and (min-width: 600px) {
-  .main-body {
-    flex: 1 50%;
-    order: 2;
-  }
-  .main-sidebar {
-    flex: 1 50%;
-    order: 1;
-  }
+
+ /*Large screens */*/
+@media all and (min-width: 800px) {
 
 }
-
-
-/* Large screens */
-/*@media all and (min-width: 800px) {
-  .main-body { flex: 2 0px; }
-
-  .main-sidebar { order: 1; flex: 1 30%; }
-  .main-body    { order: 2; }}*/

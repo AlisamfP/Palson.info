@@ -8,11 +8,12 @@ class SideBar extends Component {
         <div className="sidebar-container">
           <img src={photo} className="sidebar-face" alt="my face" />
           <div className="sidebar-info">
-            Alisa Palson
-            Software Enginner
-            Design enthusiast
+            <p>Alisa Palson</p>
+            <p>Software Enginner</p>
+            <p>Design enthusiast</p>
           </div>
         </div>
+
     )
   }
 }
