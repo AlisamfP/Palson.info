@@ -5,13 +5,13 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="Main">
-        <div className="Main-header">
-          <img src={photo} className="Main-logo" alt="logo" />
+      <div className="main-wrapper">
+        <div className="main-sidebar">
+          <img src={photo} className="main-logo" alt="logo" />
           <div>Alisa Palson</div>
         </div>
-        <div className="Main-body">
-          <p className="Main-intro">
+        <div className="main-body">
+          <p className="main-intro">
             The name's Alisa.
           </p>
         </div>
