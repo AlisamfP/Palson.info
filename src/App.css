@@ -1,15 +1,27 @@
 .Main {
   margin: 0 auto;
-  width: 80%;
+  max-width: 80%;
+  height: 500px;
+  display: flex;
 
   background-color: oldlace;
 }
 
 .Main-header {
-  border: 1px solid black;
+  padding: 20px;
   background: pink;
+  flex-direction: row;
+  flex-grow: 1;
 }
 
-.Main-logo{
-  width: 100px;
+.Main-logo {
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+.Main-body {
+  flex-grow: 1;
+  background: teal;
+
 }
