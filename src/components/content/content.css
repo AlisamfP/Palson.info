@@ -1,5 +1,6 @@
 .content-wrapper {
-  flex: 2 50%;
+  flex: 1;
   background: teal;
+  height: stretch;
 
 }

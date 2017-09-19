@@ -7,21 +7,16 @@
   flex-direction: column;
 }
 
-.closed {
-  display: none;
-
+.sidebar--expanded {
+  display: flex;
+  align-items: center;
+  flex-direction: column wrap;
+  height: stretch;
 }
+
+
 .sidebar-face {
   width: 50%;
   height: 50%;
   object-fit: contain;
-  image-orientation: from-image;
-}
-
-
-@media all and (min-width: 600px) {
-  .sidebar-container {
-    background: pink;
-    display: visible;
-  }
 }
