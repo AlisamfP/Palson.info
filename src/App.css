@@ -1,10 +1,6 @@
 .main-wrapper {
   padding: 50px;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
   height: stretch;
   background-color: oldlace;
 }
@@ -12,6 +8,14 @@
 
 
  /*Large screens */*/
-@media all and (min-width: 800px) {
-
+@media all and (min-width: 600px) {
+  .main-wrapper {
+    padding: 50px;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: stretch;
+    background-color: oldlace;
+  }
 }

@@ -2,5 +2,6 @@
   flex: 1;
   background: teal;
   height: stretch;
-
+  margin: 0 10px;
+  min-width: 150px;
 }
