@@ -4,31 +4,13 @@
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-
+  flex: 1;
 
   background-color: oldlace;
 }
 
-.main-sidebar {
-  flex: 1 50%;
-  background: pink;
-}
 
-.main-logo {
-  width: 250px;
-  height: 250px;
-  object-fit: contain;
-
-}
-
-.main-body {
-  flex: 2 50%;
-  background: teal;
-
-}
-
-
-@media all and (min-width: 600px) {
+/*@media all and (min-width: 600px) {
   .main-body {
     flex: 1 50%;
     order: 2;
@@ -42,9 +24,8 @@
 
 
 /* Large screens */
-@media all and (min-width: 800px) {
+/*@media all and (min-width: 800px) {
   .main-body { flex: 2 0px; }
 
   .main-sidebar { order: 1; flex: 1 30%; }
-  .main-body    { order: 2; }
-}
+  .main-body    { order: 2; }}*/
