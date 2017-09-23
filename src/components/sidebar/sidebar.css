@@ -8,8 +8,8 @@
 .sidebar--expanded {
   display: flex;
   align-items: center;
-  flex-direction: column;
-  height: stretch;
+  flex-direction: row;
+  /*height: stretch;*/
 }
 
 
