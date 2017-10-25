@@ -37,7 +37,7 @@ class SideBar extends Component {
     }
     return (
       <div className="sidebar-container">
-        <i className="fa fa-rocket" onClick={this.toggleSideBar} />
+        <i className="fa fa-bars sidebar-container-toggle" onClick={this.toggleSideBar} />
         { menu }
       </div>
     )

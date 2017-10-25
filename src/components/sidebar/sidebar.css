@@ -20,6 +20,15 @@
   object-fit: contain;
 }
 
+.sidebar-container-toggle {
+  display: visible;
+}
+
 .sidebar-info {
   flex: 1;
+}
+@media all and (min-width: 600px) {
+  .sidebar-container-toggle {
+    display: none;
+  }
 }
