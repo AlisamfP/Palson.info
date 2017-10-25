@@ -27,7 +27,7 @@ class SideBar extends Component {
     }
     else {
       menu = <div className="sidebar--expanded">
-        <img src={photo} className="sidebar-face" alt="my face" />
+        {/* <img src={photo} className="sidebar-face" alt="my face" /> */}
         <div className="sidebar-info">
           <p>Alisa Palson</p>
           <p>Certified human being</p>
@@ -37,6 +37,7 @@ class SideBar extends Component {
     }
     return (
       <div className="sidebar-container">
+        <i className="fa fa-rocket" onClick={this.toggleSideBar} />
         { menu }
       </div>
     )
